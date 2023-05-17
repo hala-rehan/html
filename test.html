@@ -1,0 +1,136 @@
+<!DOCTYPE html><html lang="en">
+<head>
+<style>
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+}
+
+header {
+  background-color: #F8F8F8;
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+li {
+  margin-left: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+  color: #0074D9;
+}
+
+/* نسق صفحة البطاقة */
+#hero {
+  background-image: url('https://placeimg.com/1000/600/arch');
+  background-size: cover;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-text {
+  text-align: center;
+  color: #FFF;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.cta-button {
+  background-color: #0074D9;
+  color: #FFF;
+  padding: 15px 30px;
+  border-radius: 5px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.cta-button:hover {
+  background-color: #0063B4;
+}
+  <meta charset="UTF-8">
+  <title>موقع اللغات</title>
+  <link rel="stylesheet" href="style.css">
+</style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">الرئيسية</a></li>
+        <li><a href="#">تعلم اللغات</a></li>
+        <li><a href="#">عن الموقع</a></li>
+        <li><a href="#">اتصل بنا</a></li>
+        <li><a href="#">تسجيل دخول</a></li>
+        <li><a href="#">انضم لنا</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <section id="hero">
+    <div class="hero-text">
+      <h1>تعلم اللغات بسهولة ويسر</h1>
+      <p>ابدأ الآن في تعلم اللغة التي تريدها مع موقعنا الرائع</p>
+      <a href="#" class="cta-button">انضم لنا الآن</a>
+    </div>
+  </section>
+  
+  <section id="login">
+    <div class="login-form">
+      <h2>تسجيل الدخول</h2>
+      <form>
+        <label for="email">البريد الإلكتروني:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="password">كلمة المرور:</label>
+        <input type="password" id="password" name="password" required>
+        <button type="submit">تسجيل الدخول</button>
+      </form>
+    </div>
+  </section>
+  
+  <section id="join">
+    <div class="join-form">
+      <h2>انضم لنا</h2>
+      <form>
+        <label for="name">الاسم الكامل:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">البريد الإلكتروني:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="password">كلمة المرور:</label>
+        <input type="password" id="password" name="password" required>
+        <button type="submit">انضم لنا</button>
+      </form>
+    </div>
+  </section>
+  
+  <footer>
+    <p>جميع الحقوق محفوظة &copy; 2023</p>
+  </footer>
+</body>
+</html>

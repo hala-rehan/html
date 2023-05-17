@@ -1,0 +1,92 @@
+<html>
+<head>
+<title>Forms</title>
+</head>
+<body>
+<form>
+<fieldset>
+<legend>Form</legend>
+<fieldset>
+<legend>Give us information about you to goin our team</legend>
+<ul>
+  <li><label for="firstandlast"> Name:</label></li>
+    <input type="text" name="Name" id="name" >
+  <li><label for="Phone number">Phone Number:</li>
+     <input type="tel" name="PhoneNum" id="number" >
+   <li><label for="Email">Email:</label></li>
+     <input type="email" name="Email" id="email" >
+    <li><label for="password">Password:</label></li>
+     <input type="password" name="password" id="password" >
+    <li><label for="my CV">More details about you:</label></li>
+     <textarea cols="30" rows="8"></textarea>
+    
+</ul>
+
+</fieldset>
+
+
+
+<fieldset>
+<legend>Data</legend>
+<p>EduLevel:
+<input type="text" list="edulevel" name="education">
+<datalist id="edulevel">
+<option value="High degree">
+<option value="Master degree">
+<option value="High schoole">
+<option value="phD">
+</datalist>
+<p>How old are you? </p><ol>
+<li><input type ="radio" name="age" value="Under18">Under 18</li>
+<li><input type ="radio" name="age" value="19_30">18 to 30</li>
+<li><input type ="radio" name="age" value="31_40">31 to 40</li>
+<li><input type ="radio" name="age" value="over41">Over 41</li>
+</ol>
+
+
+<p>What are your best skills? </p><ol>
+<li><input type ="checkbox" name="skills" value="swimming">Swimming</li>
+<li><input type ="checkbox" name="skills" value="running">Running</li>
+<li><input type ="checkbox" name="skills" value="horseback riding">Horseback Riding</li>
+<li><input type ="checkbox" name="skills" value="driving">Driving</li>
+</ol>
+<p>Where are you from?<p>
+<select name="Your city">
+
+<optgroup label="Gaza">
+<option>North Gaza</option>
+<option>South Gaza</option>
+<option>West Gaza</option>
+<option>Rafah</option>
+<option>Khan younes</option>
+</optgroup>
+
+
+<option>Nablus</option>
+<option>Jerusalem</option>
+<option>Hebron</option>
+<option>Jericho</option>
+
+</select>
+
+</fieldset>
+<fieldset>
+<legend>Extra Info</legend>
+<label>Your Birthday date:</label>
+<input type="Date">
+<br><br>
+<label>Your favorite color:</label>
+<input type="color">
+<br><br>
+<label>Form filling time:</labe>
+<input type="time">
+<br><br>
+<label>Your favorite month:</label>
+<input type="month">
+</fieldset>
+</fieldset>
+<input type="submit" value="submit">
+<input type="reset" value="reset">
+</form>
+</body>
+</html>
